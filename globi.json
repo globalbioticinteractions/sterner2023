@@ -1,0 +1,97 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "https://docs.google.com/spreadsheets/u/0/d/1dug0rxld9f9QnOGXvf2kaoErr6drc90lN6tJW1Og7EE/export?format=csv",
+    "dcterms:bibliographicCitation" : "Authors: Ally Finkbeiner, Beckett Sterner, Nathan Upham. \"Systematic review of virus detection data for Peromyscus maniculatus.\"",
+    "delimiter" : ",",
+    "headerRowCount" : 1,
+    "interactionTypeName" : "hostOf",
+    "null" : [ "" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "referenceCitation",
+        "titles" : "Paper ID",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonName",
+        "titles" : "Host Name",
+        "datatype" : "string"
+      }, {
+        "name" : "Host ID or Accession",
+        "titles" : "Host ID or Accession",
+        "datatype" : "string"
+      }, {
+        "name" : "Sampling Location",
+        "titles" : "Sampling Location",
+        "datatype" : "string"
+      }, {
+        "name" : "County Location",
+        "titles" : "County Location",
+        "datatype" : "string"
+      }, {
+        "name" : "Field Site ID",
+        "titles" : "Field Site ID",
+        "datatype" : "string"
+      }, {
+        "name" : "Sampling Time",
+        "titles" : "Sampling Time",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "Virus Name",
+        "datatype" : "string"
+      }, {
+        "name" : "targetSexName",
+        "titles" : "Host Sex",
+        "datatype" : "string"
+      }, {
+        "name" : "targetLifeStageName",
+        "titles" : "Host Lifestage",
+        "datatype" : "string"
+      }, {
+        "name" : "Host Material Type",
+        "titles" : "Host Material Type",
+        "datatype" : "string"
+      }, {
+        "name" : "Further Conditions",
+        "titles" : "Further Conditions",
+        "datatype" : "string"
+      }, {
+        "name" : "Measurement Method",
+        "titles" : "Measurement Method",
+        "datatype" : "string"
+      }, {
+        "name" : "Result Type",
+        "titles" : "Result Type",
+        "datatype" : "string"
+      }, {
+        "name" : "Symptom Type",
+        "titles" : "Symptom Type",
+        "datatype" : "string"
+      }, {
+        "name" : "Result",
+        "titles" : "Result",
+        "datatype" : "string"
+      }, {
+        "name" : "Confidence Interval",
+        "titles" : "Confidence Interval",
+        "datatype" : "string"
+      }, {
+        "name" : "Format",
+        "titles" : "Format",
+        "datatype" : "string"
+      }, {
+        "name" : "Notes",
+        "titles" : "Notes",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}
