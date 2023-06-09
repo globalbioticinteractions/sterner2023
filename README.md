@@ -1,4 +1,4 @@
-[![Review](https://github.com/globalbioticinteractions/sterner2023/actions/workflows/review.yml/badge.svg)](https://github.com/globalbioticinteractions/sterner2023/actions) [![Build Status](https://app.travis-ci.com/globalbioticinteractions/sterner2023.svg)](https://app.travis-ci.com/globalbioticinteractions/sterner2023) [![GloBI](https://api.globalbioticinteractions.org/interaction.svg?accordingTo=globi:globalbioticinteractions/sterner2023&refutes=true&refutes=false)](https://globalbioticinteractions.org/?accordingTo=globi:globalbioticinteractions/sterner2023)
+[![Review](https://github.com/globalbioticinteractions/sterner2023/actions/workflows/review.yml/badge.svg)](https://github.com/globalbioticinteractions/sterner2023/actions) [![GloBI](https://api.globalbioticinteractions.org/interaction.svg?accordingTo=globi:globalbioticinteractions/sterner2023&refutes=true&refutes=false)](https://globalbioticinteractions.org/?accordingTo=globi:globalbioticinteractions/sterner2023)
 
 Configuration to help Global Biotic Interactions (GloBI, https://globalbioticinteractions.org) index: 
 
