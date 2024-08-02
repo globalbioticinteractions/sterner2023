@@ -8,7 +8,7 @@
       "@language" : "en"
     } ],
     "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
-    "url" : "https://docs.google.com/spreadsheets/d/1hZ5VoleJPrWIrUIdApUNaT7y23Op9A3XNblMvDRBI_c/edit?gid=443054441#gid=443054441",
+    "url" : "https://docs.google.com/spreadsheets/d/136taUvJggdvwh5Fqd32wXctFMFA_5cnX0u7-X1y0WQU/edit?gid=1505059723#gid=1505059723",
     "dcterms:bibliographicCitation" : "Authors: Beckett Sterner, Nathan Upham, Jordan Sowards. \"Rodent-Virus Metadata Extraction.\"",
     "delimiter" : ",",
     "headerRowCount" : 1,
@@ -16,48 +16,16 @@
     "null" : [ "" ],
     "tableSchema" : {
       "columns" : [ {
-        "name" : "sourceTaxonId",
-        "titles" : "Bibliographic Citations For Host",
-        "datatype" : "string"
-      }, {
-        "name" : "sourceTaxonName",
+         "name" : "sourceTaxonName",
         "titles" : "Host Species Scientific Name",
         "datatype" : "string"
       }, {
-        "name" : "sourceBodyPartName",
-        "titles" : "Host Materials Sampled",
+        "name" : "Darwin Core: vernacularName",
+        "titles" : "Sampled Host Common Names",
         "datatype" : "string"
       }, {
-        "name" : "sourceLifeStageName",
-        "titles" : "Host Lifestages Sampled",
-        "datatype" : "string"
-      }, {
-        "name" : "sourcePhysiologicalStateName",
-        "titles" : "Host Sexes Sampled",
-        "datatype" : "string"
-      }, {
-        "name" : "sourcePhysiologicalStateName",
-        "titles" : "Symptoms",
-        "datatype" : "string"
-      }, {
-        "name" : "interactionTypeName",
-        "titles" : "Host-Pathogen Interactions",
-        "datatype" : "string"
-      }, {
-        "name" : "targetTaxonId",
-        "titles" : "Bibliographic Citations For Virus",
-        "datatype" : "string"
-      }, {
-        "name" : "targetTaxonName",
-        "titles" : "Virus Species Scientific Name",
-        "datatype" : "string"
-      }, {
-        "name" : "targetTaxonFamilyName",
-        "titles" : "Virus Higher Taxonomic Groups",
-        "datatype" : "string"
-      }, {
-        "name" : "targetTaxonGenusName",
-        "titles" : "Virus Higher Taxonomic Groups",
+        "name" : "referenceUrl",
+        "titles" : "URL of Virus Genbank Accession IDs/URL of Host Genbank Accession IDs",
         "datatype" : "string"
       }, {
         "name" : "habitatName",
@@ -72,14 +40,6 @@
         "titles" : "GPS Coordinates",
         "datatype" : "string"
       }, {
-        "name" : "observationDateTime",
-        "titles" : "Sampling Times",
-        "datatype" : "string"
-      }, {
-        "name" : "referenceUrl",
-        "titles" : "URL of Virus Genbank Accession IDs/URL of Host Genbank Accession IDs",
-        "datatype" : "string"
-      }, {
         "name" : "Darwin Core: Locality",
         "titles" : "Parks/Landmarks",
         "datatype" : "string"
@@ -91,23 +51,39 @@
         "name" : "Darwin Core: stateProvince",
         "titles" : "State/Province",
         "datatype" : "string"
-         }, {
+      }, {
         "name" : "Darwin Core: Country",
         "titles" : "Country",
         "datatype" : "string"
-         }, {
-        "name" : "Darwin Core: vernacularName",
-        "titles" : "Sampled Host Common Names",
+      }, {
+         "name" : "observationDateTime",
+        "titles" : "Sampling Times",
         "datatype" : "string"
-         }, {
-        "name" : "Darwin Core: MaterialCitation",
-        "titles" : "Host Speciman Voucher IDs",
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "Virus Species Scientific Name",
         "datatype" : "string"
-         }, {
-        "name" : "Darwin Core: measurementMethod",
-        "titles" : "Measurement Methods",
+      }, {
+        "name" : "sourcePhysiologicalStateName",
+        "titles" : "Host Sexes Sampled",
         "datatype" : "string"
-      } ]
+      }, {
+        "name" : "sourceLifeStageName",
+        "titles" : "Host Lifestages Sampled",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceBodyPartName",
+        "titles" : "Host Materials Sampled",
+        "datatype" : "string"
+      }, {
+        "name" : "sourcePhysiologicalStateName",
+        "titles" : "Symptoms",
+        "datatype" : "string"
+      }, {
+        "name" : "interactionTypeName",
+        "titles" : "Host-Pathogen Interactions",
+        "datatype" : "string"
+      }, {
     }
   } ]
 }
