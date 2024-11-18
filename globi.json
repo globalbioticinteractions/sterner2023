@@ -8,106 +8,86 @@
       "@language" : "en"
     } ],
     "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
-    "url" : "https://docs.google.com/spreadsheets/d/1hZ5VoleJPrWIrUIdApUNaT7y23Op9A3XNblMvDRBI_c/edit?gid=443054441#gid=443054441",
+    "url" : "https://docs.google.com/spreadsheets/d/1kl5UjtFrynVUKi5EacKbN1P-nHMWiXlfqcmqshuEdCM/edit?gid=470044469#gid=470044469",
     "dcterms:bibliographicCitation" : "Authors: Beckett Sterner, Nathan Upham, Jordan Sowards. \"Rodent-Virus Metadata Extraction.\"",
     "delimiter" : ",",
     "headerRowCount" : 1,
-    "interactionTypeName" : "hostOf",
+    "interactionTypeName" : "Host-Pathogen Interactions",
     "null" : [ "" ],
     "tableSchema" : {
       "columns" : [ {
-        "name" : "sourceTaxonId",
-        "titles" : "Bibliographic Citations For Host",
-        "datatype" : "string"
-      }, {
-        "name" : "sourceTaxonName",
+         "name" : "sourceTaxonName",
         "titles" : "Host Species Scientific Name",
         "datatype" : "string"
       }, {
-        "name" : "sourceBodyPartName",
-        "titles" : "Host Materials Sampled",
+        "name" : "dwc:locationID",
+        "titles" : "Field Site ID",
         "datatype" : "string"
       }, {
-        "name" : "sourceLifeStageName",
-        "titles" : "Host Lifestages Sampled",
+        "name" : "dwc:verbatimLocality",
+        "titles" : "Verbatim Locality",
         "datatype" : "string"
       }, {
-        "name" : "sourcePhysiologicalStateName",
-        "titles" : "Host Sexes Sampled",
+        "name" : "dwc:locality",
+        "titles" : "Locality",
         "datatype" : "string"
       }, {
-        "name" : "sourcePhysiologicalStateName",
-        "titles" : "Symptoms",
+        "name" : "dwc:municipality",
+        "titles" : "municipality",
         "datatype" : "string"
       }, {
-        "name" : "interactionTypeName",
-        "titles" : "Host-Pathogen Interactions",
+        "name" : "dwc:County",
+        "titles" : "County",
         "datatype" : "string"
       }, {
-        "name" : "targetTaxonId",
-        "titles" : "Bibliographic Citations For Virus",
+        "name" : "dwc:Locality",
+        "titles" : "Parks/Landmarks",
+        "datatype" : "string"
+      }, {
+        "name" : "dwc:County",
+        "titles" : "District/Counties",
+        "datatype" : "string"
+      }, {
+        "name" : "dwc:stateProvince",
+        "titles" : "State/Province",
+        "datatype" : "string"
+      }, {
+        "name" : "dwc:Country",
+        "titles" : "Country",
+        "datatype" : "string"
+      }, {
+         "name" : "observationDateTime",
+        "titles" : "Sampling Times",
         "datatype" : "string"
       }, {
         "name" : "targetTaxonName",
         "titles" : "Virus Species Scientific Name",
         "datatype" : "string"
       }, {
-        "name" : "targetTaxonFamilyName",
-        "titles" : "Virus Higher Taxonomic Groups",
+        "name" : "sourcePhysiologicalStateName",
+        "titles" : "Host Sexes Sampled",
         "datatype" : "string"
       }, {
-        "name" : "targetTaxonGenusName",
-        "titles" : "Virus Higher Taxonomic Groups",
+        "name" : "sourceLifeStageName",
+        "titles" : "Host Lifestages Sampled",
         "datatype" : "string"
       }, {
-        "name" : "habitatName",
-        "titles" : "City/State/Country",
+        "name" : "sourceBodyPartName",
+        "titles" : "Host Materials Sampled",
         "datatype" : "string"
       }, {
-        "name" : "decimalLatitude",
-        "titles" : "GPS Coordinates",
+        "name" : "dwc:MaterialSample",
+        "titles" : "Further Conditions",
         "datatype" : "string"
       }, {
-        "name" : "decimalLongitude",
-        "titles" : "GPS Coordinates",
+        "name" : "dwc:measurementMethod",
+        "titles" : "Measurement Method",
         "datatype" : "string"
       }, {
-        "name" : "observationDateTime",
-        "titles" : "Sampling Times",
+         "name" : "sourcePhysiologicalStateName",
+        "titles" : "Symptoms",
         "datatype" : "string"
       }, {
-        "name" : "referenceUrl",
-        "titles" : "URL of Virus Genbank Accession IDs/URL of Host Genbank Accession IDs",
-        "datatype" : "string"
-      }, {
-        "name" : "Darwin Core: Locality",
-        "titles" : "Parks/Landmarks",
-        "datatype" : "string"
-      }, {
-        "name" : "Darwin Core: County",
-        "titles" : "District/Counties",
-        "datatype" : "string"
-      }, {
-        "name" : "Darwin Core: stateProvince",
-        "titles" : "State/Province",
-        "datatype" : "string"
-         }, {
-        "name" : "Darwin Core: Country",
-        "titles" : "Country",
-        "datatype" : "string"
-         }, {
-        "name" : "Darwin Core: vernacularName",
-        "titles" : "Sampled Host Common Names",
-        "datatype" : "string"
-         }, {
-        "name" : "Darwin Core: MaterialCitation",
-        "titles" : "Host Speciman Voucher IDs",
-        "datatype" : "string"
-         }, {
-        "name" : "Darwin Core: measurementMethod",
-        "titles" : "Measurement Methods",
-        "datatype" : "string"
-      } ]
     }
   } ]
 }
