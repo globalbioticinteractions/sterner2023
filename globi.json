@@ -12,81 +12,104 @@
     "dcterms:bibliographicCitation" : "Authors: Beckett Sterner, Nathan Upham, Jordan Sowards. \"Rodent-Virus Metadata Extraction.\"",
     "delimiter" : ",",
     "headerRowCount" : 1,
-    "interactionTypeName" : "Host-Pathogen Interactions",
-    "null" : [ "" ],
+    "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002437",
+    "interactionTypeName": "interactsWith",
+    "null" : [ "", "NA" ],
     "tableSchema" : {
+      "primaryKey": "referenceId",
       "columns" : [ {
-         "name" : "sourceTaxonName",
-        "titles" : "Host Species Scientific Name",
+        "name" : "referenceId",
+        "titles" : "Paper ID",
         "datatype" : "string"
       }, {
-        "name" : "dwc:locationID",
-        "titles" : "Field Site ID",
-        "datatype" : "string"
-      }, {
-        "name" : "dwc:verbatimLocality",
-        "titles" : "Verbatim Locality",
-        "datatype" : "string"
-      }, {
-        "name" : "dwc:locality",
-        "titles" : "Locality",
-        "datatype" : "string"
-      }, {
-        "name" : "dwc:municipality",
-        "titles" : "municipality",
-        "datatype" : "string"
-      }, {
-        "name" : "dwc:County",
-        "titles" : "County",
-        "datatype" : "string"
-      }, {
-        "name" : "dwc:Locality",
-        "titles" : "Parks/Landmarks",
-        "datatype" : "string"
-      }, {
-        "name" : "dwc:County",
-        "titles" : "District/Counties",
-        "datatype" : "string"
-      }, {
-        "name" : "dwc:stateProvince",
-        "titles" : "State/Province",
-        "datatype" : "string"
-      }, {
-        "name" : "dwc:Country",
-        "titles" : "Country",
-        "datatype" : "string"
-      }, {
-         "name" : "observationDateTime",
-        "titles" : "Sampling Times",
+        "name" : "sourceTaxonName",
+        "titles" : "Host Name",
         "datatype" : "string"
       }, {
         "name" : "targetTaxonName",
-        "titles" : "Virus Species Scientific Name",
+        "titles" : "Virus Name",
         "datatype" : "string"
       }, {
-        "name" : "sourcePhysiologicalStateName",
-        "titles" : "Host Sexes Sampled",
+        "name" : "http://rs.tdwg.org/dwc/terms/",
+        "titles" : "Sampling Time",
         "datatype" : "string"
       }, {
-        "name" : "sourceLifeStageName",
-        "titles" : "Host Lifestages Sampled",
+        "name" : "basisOfRecord",
+        "titles" : "Study Type",
         "datatype" : "string"
       }, {
-        "name" : "sourceBodyPartName",
-        "titles" : "Host Materials Sampled",
+        "name" : "Result Type",
+        "titles" : "Result Type",
         "datatype" : "string"
       }, {
-        "name" : "dwc:MaterialSample",
-        "titles" : "Further Conditions",
-        "datatype" : "string"
-      }, {
-        "name" : "dwc:measurementMethod",
+        "name" : "Measurement Method",
         "titles" : "Measurement Method",
         "datatype" : "string"
       }, {
-         "name" : "sourcePhysiologicalStateName",
-        "titles" : "Symptoms",
+        "name" : "Result",
+        "titles" : "Result",
         "datatype" : "string"
-      } }
+      }, {
+        "name" : "Confidence Interval",
+        "titles" : "Confidence Interval",
+        "datatype" : "string"
+      }, {
+        "name" : "Format",
+        "titles" : "Format",
+        "datatype" : "string"
+      }, {
+        "name" : "Misc Method Conditions",
+        "titles" : "Misc Method Conditions",
+        "datatype" : "string"
+      }, {
+        "name" : "Use for Prevalence",
+        "titles" : "Use for Prevalence",
+        "datatype" : "string"
+      }, {
+        "name" : "localityName",
+        "titles" : "Locality",
+        "datatype" : "string"
+      }, {
+        "name" : "Municipality",
+        "titles" : "Municipality",
+        "datatype" : "string"
+      }, {
+        "name" : "County",
+        "titles" : "County",
+        "datatype" : "string"
+      }, {
+        "name" : "StateProvince",
+        "titles" : "StateProvince",
+        "datatype" : "string"
+      }, {
+        "name" : "Country",
+        "titles" : "Country",
+        "datatype" : "string"
+      }, {
+        "name" : "Verbatim Locality",
+        "titles" : "Verbatim Locality",
+        "datatype" : "string"
+      }, {
+        "name" : "Field Site ID",
+        "titles" : "Field Site ID",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceSexName",
+        "titles" : "Host Sex",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceLifeStageName",
+        "titles" : "Host Lifestage",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceBodyPartName",
+        "titles" : "Host Material Type",
+        "datatype" : "string"
+      }, {
+        "name" : "Misc Host Attributes",
+        "titles" : "Misc Host Attributes",
+        "datatype" : "string"
+      } ]
+    }
   } ]
 }
