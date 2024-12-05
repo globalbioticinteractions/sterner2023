@@ -30,7 +30,7 @@
         "titles" : "Virus Name",
         "datatype" : "string"
       }, {
-        "name" : "http://rs.tdwg.org/dwc/terms/",
+        "name" : "http://rs.tdwg.org/dwc/terms/eventDate",
         "titles" : "Sampling Time",
         "datatype" : "string"
       }, {
