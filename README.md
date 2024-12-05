@@ -2,4 +2,6 @@
 
 Configuration to help Global Biotic Interactions (GloBI, https://globalbioticinteractions.org) index: 
 
-Authors: Beckett Sterner, Nathan Upham, Jordan Sowards. \"Rodent-Virus Metadata Extraction.\"
+Authors: Ally Finkbeiner, Ahmad Khatib, Beckett Sterner, Nathan Upham. 
+A Systematic Review of the Distribution and Prevalence of Viruses Detected in the Peromyscus maniculatus Species Complex (Rodentia: Cricetidae)
+https://www.biorxiv.org/content/10.1101/2024.07.04.602117v1.abstract
