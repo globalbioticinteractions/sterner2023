@@ -8,7 +8,7 @@
       "@language" : "en"
     } ],
     "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
-    "url" : "https://docs.google.com/spreadsheets/d/1kl5UjtFrynVUKi5EacKbN1P-nHMWiXlfqcmqshuEdCM/edit?gid=470044469#gid=470044469",
+    "url" : "https://docs.google.com/spreadsheets/d/1E6HLAUoH_ByT8KG3tSLfpc4Tmb7vbidSTNxsKG-syrk/edit?gid=1031433960#gid=1031433960",
     "dcterms:bibliographicCitation" : "Authors: Beckett Sterner, Nathan Upham, Jordan Sowards. \"Rodent-Virus Metadata Extraction.\"",
     "delimiter" : ",",
     "headerRowCount" : 1,
@@ -17,35 +17,35 @@
     "tableSchema" : {
       "columns" : [ {
          "name" : "sourceTaxonName",
-        "titles" : "Host Species Scientific Name",
+        "titles" : "Host Name",
         "datatype" : "string"
       }, {
-        "name" : "dwc:locationID",
-        "titles" : "Field Site ID",
+        "name" : "targetTaxonName",
+        "titles" : "Virus Name",
         "datatype" : "string"
       }, {
-        "name" : "dwc:verbatimLocality",
-        "titles" : "Verbatim Locality",
+        "name" : "observationDateTime",
+        "titles" : "Sampling Time",
         "datatype" : "string"
       }, {
-        "name" : "dwc:locality",
+        "name" : "dwc:measurementMethod",
+        "titles" : "Measurement Method",
+        "datatype" : "string"
+      }, {
+        "name" : "dwc:Locality",
         "titles" : "Locality",
         "datatype" : "string"
       }, {
         "name" : "dwc:municipality",
-        "titles" : "municipality",
+        "titles" : "Municipality",
         "datatype" : "string"
       }, {
-        "name" : "dwc:County",
+        "name" : "dwc:county",
         "titles" : "County",
         "datatype" : "string"
       }, {
-        "name" : "dwc:Locality",
-        "titles" : "Parks/Landmarks",
-        "datatype" : "string"
-      }, {
-        "name" : "dwc:County",
-        "titles" : "District/Counties",
+        "name" : "dwc:stateProvince",
+        "titles" : "StateProvince",
         "datatype" : "string"
       }, {
         "name" : "dwc:stateProvince",
@@ -56,36 +56,24 @@
         "titles" : "Country",
         "datatype" : "string"
       }, {
-         "name" : "observationDateTime",
-        "titles" : "Sampling Times",
+         "name" : "verbatimLocality",
+        "titles" : "VerbatimLocality",
         "datatype" : "string"
       }, {
-        "name" : "targetTaxonName",
-        "titles" : "Virus Species Scientific Name",
+        "name" : "dwc:locationID",
+        "titles" : "Field Site ID",
         "datatype" : "string"
       }, {
         "name" : "sourcePhysiologicalStateName",
-        "titles" : "Host Sexes Sampled",
+        "titles" : "Host Sex",
         "datatype" : "string"
       }, {
         "name" : "sourceLifeStageName",
-        "titles" : "Host Lifestages Sampled",
+        "titles" : "Host Lifestage",
         "datatype" : "string"
       }, {
         "name" : "sourceBodyPartName",
-        "titles" : "Host Materials Sampled",
-        "datatype" : "string"
-      }, {
-        "name" : "dwc:MaterialSample",
-        "titles" : "Further Conditions",
-        "datatype" : "string"
-      }, {
-        "name" : "dwc:measurementMethod",
-        "titles" : "Measurement Method",
-        "datatype" : "string"
-      }, {
-         "name" : "sourcePhysiologicalStateName",
-        "titles" : "Symptoms",
+        "titles" : "Host Material Type", 
         "datatype" : "string"
       }, {
     }
