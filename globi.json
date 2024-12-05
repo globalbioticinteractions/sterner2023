@@ -87,7 +87,6 @@
          "name" : "sourcePhysiologicalStateName",
         "titles" : "Symptoms",
         "datatype" : "string"
-      }, {
-    }
+      }
   } ]
 }
