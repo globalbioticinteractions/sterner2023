@@ -11,7 +11,7 @@
     "url" : "https://docs.google.com/spreadsheets/d/1E6HLAUoH_ByT8KG3tSLfpc4Tmb7vbidSTNxsKG-syrk/export?format=csv&gid=1031433960#gid=1031433960",
     "dcterms:bibliographicCitation" : "Authors: Beckett Sterner, Nathan Upham, Jordan Sowards. \"Rodent-Virus Metadata Extraction.\"",
     "delimiter" : ",",
-    "headerRowCount" : 1,
+    "headerRowCount" : 2,
     "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002437",
     "interactionTypeName": "interactsWith",
     "null" : [ "", "NA" ],
