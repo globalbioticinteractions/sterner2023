@@ -2,4 +2,6 @@
 
 Configuration to help Global Biotic Interactions (GloBI, https://globalbioticinteractions.org) index: 
 
-Authors: Ally Finkbeiner, Beckett Sterner, Nathan Upham. "Systematic review of virus detection data for Peromyscus maniculatus."
+Authors: Ally Finkbeiner, Ahmad Khatib, Beckett Sterner, Nathan Upham. 
+A Systematic Review of the Distribution and Prevalence of Viruses Detected in the Peromyscus maniculatus Species Complex (Rodentia: Cricetidae)
+https://www.biorxiv.org/content/10.1101/2024.07.04.602117v1.abstract
