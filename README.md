@@ -1,5 +1,5 @@
-[![Review](https://github.com/globalbioticinteractions/sterner2023/actions/workflows/review.yml/badge.svg)](https://github.com/globalbioticinteractions/sterner2023/actions) [![GloBI](https://api.globalbioticinteractions.org/interaction.svg?accordingTo=globi:globalbioticinteractions/sterner2023&refutes=true&refutes=false)](https://globalbioticinteractions.org/?accordingTo=globi:globalbioticinteractions/sterner2023)
+[![GloBI Review by Elton](../../actions/workflows/review.yml/badge.svg)](../../actions/workflows/review.yml) [![GloBI](https://api.globalbioticinteractions.org/interaction.svg?accordingTo=globi:SternerLab/SternerLab-MammalVirusData&refutes=true&refutes=false)](https://globalbioticinteractions.org/?accordingTo=globi:SternerLab/SternerLab-MammalVirusData)
 
 Configuration to help Global Biotic Interactions (GloBI, https://globalbioticinteractions.org) index: 
 
-Authors: Ally Finkbeiner, Beckett Sterner, Nathan Upham. "Systematic review of virus detection data for Peromyscus maniculatus."
+Authors: Beckett Sterner, Nathan Upham, Jordan Sowards. \"Rodent-Virus Metadata Extraction.\"
