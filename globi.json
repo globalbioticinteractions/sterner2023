@@ -18,95 +18,143 @@
     "tableSchema" : {
       "primaryKey": "referenceId",
       "columns" : [ {
-        "name" : "referenceId",
-        "titles" : "Paper ID",
+        "name" : "referenceDoi",
+        "titles" : "Reference DOI",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceUrl",
+        "titles" : "Reference URL",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceCitation",
+        "titles" : "Reference Citation",
         "datatype" : "string"
       }, {
         "name" : "sourceTaxonName",
         "titles" : "Host Name",
         "datatype" : "string"
       }, {
+        "name" : "sourceTaxonId",
+        "titles" : "Host TaxonID",
+        "datatype" : "string"
+      }, {
         "name" : "targetTaxonName",
         "titles" : "Virus Name",
         "datatype" : "string"
       }, {
-        "name" : "http://rs.tdwg.org/dwc/terms/eventDate",
+        "name" : "targetTaxonId",
+        "titles" : "Virus TaxonID",
+        "datatype" : "string"
+      }, {
+        "name" : "observationDateTime",
         "titles" : "Sampling Time",
         "datatype" : "string"
       }, {
-        "name" : "basisOfRecord",
+        "name" : "interactionTypeName",
+        "titles" : "Interaction Type Name",
+        "datatype" : "string"
+      }, {
+        "name" : "interactionTypeId",
+        "titles" : "Interaction Type ID",
+        "datatype" : "string"
+      }, {
+        "name" : "dwc:basisOfRecord",
         "titles" : "Study Type",
         "datatype" : "string"
       }, {
-        "name" : "Result Type",
+        "name" : "dwc:measurementType",
         "titles" : "Result Type",
         "datatype" : "string"
       }, {
-        "name" : "Measurement Method",
-        "titles" : "Measurement Method",
+        "name" : "dwc:measurementMethod",
+        "titles" : "Measurement Method Name",
         "datatype" : "string"
       }, {
-        "name" : "Result",
+        "name" : "dwc:measurementID",
+        "titles" : "Measurement Method ID",
+        "datatype" : "string"
+      }, {
+        "name" : "dwc:measurementValue",
         "titles" : "Result",
         "datatype" : "string"
       }, {
-        "name" : "Confidence Interval",
+        "name" : "dwc:measurementAccuracy",
         "titles" : "Confidence Interval",
         "datatype" : "string"
       }, {
-        "name" : "Format",
-        "titles" : "Format",
+        "name" : "stato:textualentity",
+        "titles" : "Statistical Method Name",
         "datatype" : "string"
       }, {
-        "name" : "Misc Method Conditions",
+        "name" : "stato:statistic",
+        "titles" : "Statistical Method ID",
+        "datatype" : "string"
+      }, {
+        "name" : "dwc:occurrenceRemarks",
         "titles" : "Misc Method Conditions",
-        "datatype" : "string"
-      }, {
-        "name" : "Use for Prevalence",
-        "titles" : "Use for Prevalence",
         "datatype" : "string"
       }, {
         "name" : "localityName",
         "titles" : "Locality",
         "datatype" : "string"
       }, {
-        "name" : "Municipality",
+        "name" : "localityId",
+        "titles" : "LocalityID",
+        "datatype" : "string"
+      }, {
+        "name" : "dwc:municipality",
         "titles" : "Municipality",
         "datatype" : "string"
       }, {
-        "name" : "County",
+        "name" : "dwc:county",
         "titles" : "County",
         "datatype" : "string"
       }, {
-        "name" : "StateProvince",
+        "name" : "dwc:stateProvince",
         "titles" : "StateProvince",
         "datatype" : "string"
       }, {
-        "name" : "Country",
+        "name" : "dwc:country",
         "titles" : "Country",
         "datatype" : "string"
       }, {
-        "name" : "Verbatim Locality",
+        "name" : "dwc:verbatimLocality",
         "titles" : "Verbatim Locality",
         "datatype" : "string"
       }, {
-        "name" : "Field Site ID",
+        "name" : "dwc:locationID",
         "titles" : "Field Site ID",
         "datatype" : "string"
       }, {
-        "name" : "sourceSexName",
+        "name" : "habitatName",
+        "titles" : "Habitat Name",
+        "datatype" : "string"
+      }, {
+        "name" : "habitatId",
+        "titles" : "Habitat ID",
+        "datatype" : "string"
+      }, {
+        "name" : "dwc:sex",
         "titles" : "Host Sex",
         "datatype" : "string"
       }, {
         "name" : "sourceLifeStageName",
-        "titles" : "Host Lifestage",
+        "titles" : "Host Lifestage Name",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceLifeStageId",
+        "titles" : "Host Lifestage ID",
         "datatype" : "string"
       }, {
         "name" : "sourceBodyPartName",
-        "titles" : "Host Material Type",
+        "titles" : "Host Material Name",
         "datatype" : "string"
       }, {
-        "name" : "Misc Host Attributes",
+        "name" : "sourceBodyPartId",
+        "titles" : "Host Material ID",
+        "datatype" : "string"
+      }, {
+        "name" : "dwc:organismRemarks",
         "titles" : "Misc Host Attributes",
         "datatype" : "string"
       } ] 
